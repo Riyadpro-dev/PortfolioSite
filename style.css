@@ -1,0 +1,55 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.singletext{
+    color: #FD6E0A;
+}
+.textcolor{
+    color: #474747;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    border: 0px;
+    padding: 20px 30px;
+    border-radius: 5px;
+
+}
+
+
+/* navbar design */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 100px;
+}
+
+.sitelogo{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}

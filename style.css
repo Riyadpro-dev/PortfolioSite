@@ -20,10 +20,13 @@
     color: white;
     font-weight: 400;
     border: 0px;
-    padding: 20px 30px;
+    padding: 15px 20px;
     border-radius: 5px;
 
 }
+
+
+
 
 
 /* navbar design */
@@ -31,12 +34,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 25px 100px;
+    margin: 0px 100px;
 }
 
 .sitelogo{
     font-weight: 800;
     font-size: 45px;
+    margin: 0px;
 
 }
 
@@ -52,4 +56,48 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    margin:25px 100px;
+    align-items: center;
+    
+    
+
+}
+
+.leftbanner h3{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.leftbanner h1{
+    font-size: 60px;
+    margin: 0px;
+
+}
+.leftbanner p{
+    font-size: 18px;
+    color:#757575;
+}
+
+.btn2{
+     background-color: white;
+    font-size: 20px;
+    color:#FD6E0A;
+    font-weight: 400;
+    /* border: 0px; */
+    border-color: #FD6E0A;
+    padding: 13px 18px;
+    border-radius: 5px;
+}
+
+
+main{
+     background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+
 }
